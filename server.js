@@ -10,9 +10,9 @@ const bodyParser = require('body-parser');
 const {
     ShoppingList
 } = require('./models');
-//const {
-//    Recipes
-//} = require('./models');
+const {
+    Recipes
+} = require('./models');
 const jsonParser = bodyParser.json();
 const app = express();
 
